@@ -203,7 +203,36 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+#content{
+  width: 85%;
+  margin: auto;
+}
 
+html {
+  background-color: rgb(115, 114, 98);
+  
+}
+body {
+  background-color: rgb(150, 150, 147);
+  align-content: center;
+
+}
+h1 {
+  font-weight: bold;
+}
+
+h1, p {
+  text-align: center;
+  margin: auto;
+  padding: 1em;
+  box-sizing: border-box;
+
+}
+form {
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+}
 
 /* ===== STATE STYLES ======= */
 
