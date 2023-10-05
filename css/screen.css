@@ -233,6 +233,29 @@ form {
   height: auto;
   box-sizing: border-box;
 }
+#age-verigivation {
+  width: 1em;
+  height: 1em;
+  margin-bottom: 2em;
 
+}
+#email {
+  width: fit-content;
+  margin: auto;
+  display: inline-block;
+}
+#submit {
+  margin: auto;
+  box-sizing: border-box;
+  width: 50%;
+}
 /* ===== STATE STYLES ======= */
 
+@media screen and (min-width: 510px) {
+  #content{
+    width: 80%;
+    margin: auto;
+
+  }
+  
+}
