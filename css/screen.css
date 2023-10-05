@@ -204,9 +204,9 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 #content{
-  width: 85%;
+  width: auto;
   display: block;
-  margin: auto;
+ 
 }
 
 html {
@@ -214,7 +214,7 @@ html {
   
 }
 body {
-  background-color: rgb(150, 150, 147);
+  background-color: rgb(115, 114, 98);
   align-content: center;
 
 }
@@ -227,12 +227,16 @@ h1, p {
   margin: auto;
   padding: 1em;
   box-sizing: border-box;
+  justify-content: center;
 
 }
 form {
+  display: block;
   width: auto;
   height: auto;
   box-sizing: border-box;
+  border: solid;
+  background-color: rgb(150, 150, 147);
 }
 input[type=email] {
   box-sizing: border-box;
@@ -244,6 +248,7 @@ input[type=email] {
   width: 1em;
   height: 1em;
   margin-bottom: 2em;
+  position: absolute;
 
 }
 
