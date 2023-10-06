@@ -243,6 +243,7 @@ input[type=email] {
   padding: .5em;
   margin: auto;
   border-radius: 0.5em;
+  
 }
 #age-verigivation {
   width: 1em;
@@ -251,18 +252,28 @@ input[type=email] {
   position: absolute;
 
 }
+#input-age-verification {
+  display: flex;
+  align-items: center;
+}
+
+#input-age-verification input[type="checkbox"] {
+  margin: 0; 
+  margin-right: 0.5em; 
+}
 
 #email {
   
-  width: 50%;
+ 
   margin-bottom: 1em;
   display: inline-block;
 }
 #submit {
+  display:block;
+  width: fit-content;
+  text-align: center;
   margin: auto;
-  box-sizing: border-box;
-  width: 50%;
-
+  border-radius: 1em;
 }
 /* ===== STATE STYLES ======= */
 
