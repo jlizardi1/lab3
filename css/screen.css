@@ -203,22 +203,20 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
-#content{
-  width: auto;
-  display: block;
- 
-}
 
-html {
-  background-color: rgb(115, 114, 98);
-  
-}
-body {
+
+body, html {
   background-color: rgb(115, 114, 98);
   align-content: center;
 
 }
 h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  font-family:'Ubuntu Mono', monospace;
   font-weight: bold;
 }
 
@@ -228,22 +226,31 @@ h1, p {
   padding: 1em;
   box-sizing: border-box;
   justify-content: center;
+  
 
 }
+
 form {
   display: block;
   width: auto;
   height: auto;
   box-sizing: border-box;
   border: solid;
-  background-color: rgb(150, 150, 147);
+  background-color: #888888e9;
 }
 input[type=email] {
+  font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   padding: .5em;
   margin: auto;
   border-radius: 0.5em;
+  cursor: pointer;
   
+}
+#content{
+  width: auto;
+  display: block;
+ 
 }
 #age-verigivation {
   width: 1em;
@@ -282,6 +289,20 @@ input[type=email] {
     width: 80%;
     margin: 1em auto;
 
+  }
+  body,html{
+    background-color: rgb(255, 249, 249);
+  }
+  form {
+    padding: .625em;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 1.2em
+  }
+  form input[type="email"]{
+    padding: 0.5em;
   }
   ol{
     padding: 1.5em 1em;
